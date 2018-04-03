@@ -22,3 +22,6 @@ Kubernetes created a service and an external load balancer with a public IP addr
 ## Service information 
 ```kubectl get services ```
 You'll see an external IP that you can use to test and contact the nginx container remotely.
+
+## Scaling up the number of backend applications(pods)
+``` kubectl scale deployment nginx --replicas 3 ```
