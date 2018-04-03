@@ -25,3 +25,7 @@ You'll see an external IP that you can use to test and contact the nginx contain
 
 ## Scaling up the number of backend applications(pods)
 ``` kubectl scale deployment nginx --replicas 3 ```
+
+## Clean up or Delete the deployment/service
+``` kubectl delete deployment nginx```
+``` kubectl delete service nginx```
