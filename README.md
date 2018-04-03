@@ -1,7 +1,9 @@
 # kubernetes-command
 Important Kubernetes command 
-# Version of Kubectl
+## Version of Kubectl
 ```kubectl version```
 
-# Cluster information 
+## Cluster information 
 ```kubectl cluster-info```
+## Bash Completion (Optional)
+```source <(kubectl completion bash)```
