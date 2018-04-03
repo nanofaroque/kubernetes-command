@@ -29,3 +29,6 @@ You'll see an external IP that you can use to test and contact the nginx contain
 ## Clean up or Delete the deployment/service
 ``` kubectl delete deployment nginx```
 ``` kubectl delete service nginx```
+## Explanation of the pods
+``` kubectl explain pods```
+
