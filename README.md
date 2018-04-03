@@ -18,3 +18,7 @@ In Kubernetes, all containers run in pods. And in this command, Kubernetes creat
 
 Remember we created nginx pod. 
 Kubernetes created a service and an external load balancer with a public IP address attached to it (you will learn about services later). The IP address remains the same for the life of the service. Any client who hits that public IP address (for example an end user or another container) is routed to pods behind the service. In this case, that would be the nginx pod.
+
+## Service information 
+```kubectl get services ```
+You'll see an external IP that you can use to test and contact the nginx container remotely.
